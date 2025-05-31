@@ -1,0 +1,202 @@
+/**
+ * Bunny Auto Uploader Admin CSS
+ */
+
+.bunny-auto-uploader-header {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.bunny-auto-uploader-header h2 {
+    margin-bottom: 10px;
+}
+
+.bunny-auto-uploader-form .form-table th {
+    width: 25%;
+}
+
+.bunny-auto-uploader-form .regular-text {
+    width: 350px;
+}
+
+.bunny-info-box {
+    background: #f9f9f9;
+    border-left: 4px solid #0073aa;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.bunny-info-box p {
+    margin: 0;
+}
+
+/* Media edit screen meta box */
+#bunny-auto-uploader-meta-box .inside {
+    padding: 10px;
+}
+
+#bunny-auto-uploader-meta-box label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#bunny-auto-uploader-meta-box input[type="text"] {
+    width: 100%;
+}
+
+/* Media attachment fields */
+.bunny-cdn-url {
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    word-wrap: break-word;
+    padding: 3px 5px;
+    background: #f0f0f0;
+    border-radius: 3px;
+    font-family: monospace;
+    font-size: 12px;
+    line-height: 1.4;
+    margin-bottom: 5px;
+}
+
+.bunny-cdn-url:hover {
+    background: #e0e0e0;
+}
+
+button.upload-to-bunny {
+    margin-top: 5px;
+}
+
+/* Error log styling */
+.bunny-error-log,
+.bunny-failed-uploads,
+.bunny-upload-existing {
+    margin: 25px 0;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.bunny-error-log h2,
+.bunny-failed-uploads h2,
+.bunny-upload-existing h2 {
+    margin-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.bunny-error-table-wrapper,
+.bunny-failed-table-wrapper {
+    margin-top: 15px;
+}
+
+.bunny-error-table td,
+.bunny-failed-table td {
+    vertical-align: middle;
+}
+
+.bunny-error-table td:first-child,
+.bunny-failed-table td:first-child {
+    width: 180px;
+}
+
+.bunny-error-table td:nth-child(2) {
+    width: 120px;
+}
+
+.bunny-error-table td:nth-child(3) {
+    width: 130px;
+}
+
+.bunny-error-table code {
+    background: #f0f0f0;
+    padding: 3px 5px;
+    border-radius: 3px;
+    font-size: 11px;
+    color: #e65054;
+}
+
+.notice.inline {
+    margin: 15px 0;
+    padding: 5px 12px;
+}
+
+/* Error styling */
+.bunny-upload-error {
+    background: #fdf2f2;
+    border-left: 4px solid #dc3232;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+}
+
+.bunny-upload-error .error-message {
+    margin: 0 0 8px 0;
+    color: #dc3232;
+}
+
+.bunny-upload-error .error-time {
+    margin: 0 0 8px 0;
+    color: #666;
+}
+
+/* Admin notice styling */
+.bunny-admin-notice {
+    position: relative;
+    padding: 15px !important;
+}
+
+.bunny-admin-notice h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #23282d;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.bunny-admin-notice p {
+    margin-bottom: 8px;
+}
+
+.bunny-admin-notice p:last-child {
+    margin-bottom: 0;
+}
+
+.bunny-cdn-url-display {
+    margin-top: 10px;
+    background: #f9f9f9;
+    padding: 8px;
+    border-radius: 3px;
+    border-left: 4px solid #46b450;
+    word-break: break-all;
+}
+
+.bunny-notice-url {
+    font-family: monospace;
+    word-break: break-all;
+    display: block;
+    margin-top: 5px;
+    padding: 5px;
+    background: #f0f0f0;
+    border-radius: 2px;
+}
+
+.bunny-error-message {
+    margin-top: 10px;
+    background: #fbeaea;
+    padding: 8px;
+    border-radius: 3px;
+    border-left: 4px solid #dc3232;
+}
+
+.bunny-error-actions {
+    margin-top: 10px;
+}
+
+.bunny-error-actions .button {
+    margin-right: 5px;
+} 
